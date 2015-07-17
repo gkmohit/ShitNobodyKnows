@@ -1,5 +1,7 @@
 package com.gkmohit.unknown.shitnobodyknows;
 
+import android.util.Log;
+
 import java.util.Random;
 
 /**
@@ -7,6 +9,7 @@ import java.util.Random;
  */
 public class FactBook {
 
+    public static final String TAG = FactBook.class.getSimpleName();
     //TODO
     //Implement this into a database for faster and more optimal storage.
     public String[] mFacts = {
@@ -23,12 +26,13 @@ public class FactBook {
     };
 
     public String getFact(){
+        Log.d(TAG, "getFact() was called.");
         String fact = new String();
         //Randomly select a fact
         Random randomGenerator = new Random();
         int randomNumber = randomGenerator.nextInt(mFacts.length);
         fact = mFacts[randomNumber];
-
+        Log.d(TAG, "Returning fact : " + fact);
         return fact;
 
     }

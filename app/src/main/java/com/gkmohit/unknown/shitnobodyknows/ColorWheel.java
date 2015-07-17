@@ -1,5 +1,7 @@
 package com.gkmohit.unknown.shitnobodyknows;
+
 import android.graphics.Color;
+import android.util.Log;
 
 import java.util.Random;
 
@@ -7,6 +9,8 @@ import java.util.Random;
  * Created by gkmohit on 15-07-14.
  */
 public class ColorWheel {
+
+    public static final String TAG = ColorWheel.class.getSimpleName();
     //TODO
     //Looking for more CSS Colors.
     //Code from Treehouse.
@@ -25,14 +29,15 @@ public class ColorWheel {
             "#f092b0", // pink
             "#b7c0c7"  // light gray
     };
-    public int getColor(){
+    public int getColor() {
+        Log.d(TAG, "getColor() was called.");
         String color = new String();
         //Randomly select a fact
         Random randomGenerator = new Random();
         int randomNumber = randomGenerator.nextInt(mColors.length);
         color = mColors[randomNumber];
         int colorAsInt = Color.parseColor(color);
+        Log.d(TAG, "Returning : " + color + " /" + colorAsInt);
         return colorAsInt;
-
     }
 }
