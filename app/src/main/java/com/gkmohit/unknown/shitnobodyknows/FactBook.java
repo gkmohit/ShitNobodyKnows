@@ -36,7 +36,7 @@ public class FactBook {
             "In Antarctica the sunsets can be green.",
             "Bugs Bunny is the world's most popular Rabbit.",
             "Bugs Bunny has starred in more than 175 films.",
-            "Bugs Bunny has been nominated for three Oscars, and wont one in 1958.",
+            "Bugs Bunny has been nominated for three Oscars, and won one in 1958.",
             "1 in 6,500 people could be injured by a toilet seat.",
             "Hibernation bears can go up to six months without a bathroom break.",
             "Rabbits and horses cannot vomit.",
@@ -64,7 +64,7 @@ public class FactBook {
             "The rare Goliath frog from Africa is the largest frog in the world.",
             "Chinese giant Salamander is the largest amphibian in the world.",
             "The indentation at the bottom of wine bottles is known as a Kick or Punt.",
-            "The movie nixon was called the \"The Big Liar\" after being Re-Dubbed in Hong Kong.",
+            "The movie Nixon was called the \"The Big Liar\" after being Re-Dubbed in Hong Kong.",
             "If your second toe is longer than the big toe, you are said to have Morton's Toe, only 10% of the people have this.",
             "The Simian Crease is the line that stretches all they way across your palm.",
             "Only 2% of the adult population are naturally blond.",
@@ -88,7 +88,23 @@ public class FactBook {
             "God is the only character in show \"The Simpsons'\" who has 5 fingers, the rest have only 4.",
             "A \'Butt\', was a unit to measure wine in Medieval England.",
             "The famous Windows startup was composed using a Mac.",
-            "You cannot cry in space because there is no gravity to make tears flow."
+            "You cannot cry in space because there is no gravity to make tears flow.",
+            "The world's highest public telephone booth is on the Siachen Glacier, in India.",
+            "311 is the police code for indecent exposure in California.",
+            "By simply smelling a piece of clothing, most people can tell if a woman or a man wore it.",
+            "Many smells are heavier than air and can be smelled only at ground level.",
+            "We smell best if we take several short sniffs, rather than one long one.",
+            "The only flower we eat from a tree is the fig.",
+            "According to researchers, only 5% of people dream in color.",
+            "On an average every cow produces about 70,000 glasses of milk in her life time.",
+            "If a man never shaved, his beard would be 13 feet long on the day he died.",
+            "The odds of living to 116 is 1 in 2 billion.",
+            "Spring gets two-thirds of a day shorter every thousand years.",
+            "Muhammad Ali,Jimmy Carter and William Shatner are 3 celebrities who say they have seen an UFO.",
+            "Alan Turing a famous computer scientist almost qualified for 1948 Olympic Marathon.",
+            "Einstein's last words were in German, unfortunately the nurse attending him could not understand him.",
+            "Marylyn Monroe never received an Academy Nomination. She did however win a Golden Globe.",
+            "On an average about 500 billion plastic bags are user in a year. That is more than one million a minute."
     };
 
     public String getFact(){

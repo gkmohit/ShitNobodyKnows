@@ -27,6 +27,9 @@ public class FunFactsActivity extends Activity {
         final TextView factLable = (TextView) findViewById(R.id.factTextView);
         final Button showFactButton = (Button) findViewById(R.id.showFactButton);
         mRelativeLayout = (RelativeLayout) findViewById(R.id.relativeLayout);
+        String firstFact = mFactBook.getFact();
+        Log.d(TAG, "Setting fact to : " + firstFact);
+        factLable.setText(firstFact);
         View.OnClickListener listner = new View.OnClickListener() {
             @Override
             public void onClick(View v) {
